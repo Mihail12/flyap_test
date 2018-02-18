@@ -2,6 +2,7 @@
 
 ## Brief
 Необходимо реализовать минималистичное Django приложение с админкой и одним REST методом.
+Важно: перед выполнением прочтите содержимое блока [Requirements](## Requirements) и выполняйте задачу согласно изложенным требованиям.
 
 ## Description
 
@@ -66,6 +67,12 @@ country, negotiator, company.
 Число - это id объекта.
 
 ## Requirements
+
+### General
+- Provide fixtures that contain test data: several agreements with several periods
+
+### Will be a plus
+- Unit tests
 
 ### Coding style
 - 1 tab equals to 3 spaces
