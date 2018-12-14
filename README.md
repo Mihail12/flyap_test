@@ -1,70 +1,68 @@
 # Flyaps Python test task
 
 ## Brief
-Необходимо реализовать минималистичное Django приложение с админкой и одним REST методом.
-Важно: перед выполнением прочтите содержимое блока [Requirements](#requirements) и выполняйте задачу согласно изложенным требованиям.
+You have to implement minimalistic Django application with admin interface and one REST endpoint.
+Important: before starting implementation you should read carefully [Requirements](#requirements) paragraph and do the task accordingly to it. 
 
 ## Description
 
 ### General
 
-Модуль предназачен для анализа дискаунт соглашений между компаниями-партнёрами.
+Module should be designed for analysis of discount conditions between partner companies.
 
-Понятие 1 - Соглашение о скидке (Agreement)
-Понятие 2 - Период соглашения (Period)
-Понятие 3 - Компания (Company)
-Понятие 4 - Страна (Country)
-Понятие 5 - Ответственное лицо (Negotiator)
+Notion 1 - Discount Agreement (Agreement)
+Notion 2 - Period of agreement (Period)
+Notion 3 - Company
+Notion 4 - Country
+Notion 5 - Responsible person (Negotiator)
 
-Agreement имеет дату начала и окончания, компанию с которой заключается скидка, ответственное лицо (negotiator)
-Оборот по кредиту, оборот по дебету (экспорт/импорт).
+Agreement has start and stop date, company agreement concluded with, responsible person - negotiator, debit and credit turnover (export/import).
 
-Period - дата начала и окончания, статус (описание ниже).
-Внутри одного соглашения может быть несколько периодов.
-Внутри соглашения периоды не пересекаются.
-Дата начала соглашения может быть меньше даты начала первого периода.
-Точно также, дата окончания может быть больше даты окончания последнего периода.
+Period - start and stop date, status - described below.
+One agreement can have several periods inside.
+Inside agreement periods should not intersect.
+Agreement start date could be earlier than start date of the earliest period (but not vice versa) as well as agreement stop date could be later than stop date of the latest period (but not vice versa).
 
-Company - название, страна.
+Company - title, country.
 
 Country - 3-alpha iso code, name
 
-Negotiator - пользователь, который отвечает за соглашение. Должен быть также джанго пользователем.
+Negotiator - user who is responsible for agreement. Should be a django user as well.
 
-Status - состояние периода, может быть: New, Active, Reconciliation, Closed
+Status - state of a period. Could be: New, Active, Reconciliation, Closed
 
+### Admin interface 
 
-### Админка
-
-Для всех объектов должна быть удобная админка.
-Надо предусмотреть поиск, фильтры согласно эргономике использования.
-Agreement должен отображать Periods с помощью tabular inline.
+Each object should be represented in Django admin.
+You need to provide search, filters etc guided by your understanding of usability.
+Agreement should display Periods with tabular inline.
 
 
 ### UI
 
-Пользовательский интерфейс показывает ссылку Admin на главной странице.
+On the index page there should be link to the django admin only.
 
 
 ### API
 
-Необходимо реализовать API для календаря соглашений: https://drive.google.com/file/d/11f_AthRwxbIM-SOxsGpd3yR0jihexla7/view?usp=sharing
+You have to implement API for [agreement calendar](https://drive.google.com/file/d/11f_AthRwxbIM-SOxsGpd3yR0jihexla7/view?usp=sharing).
 
-Цифра, которая отображается в месяце - это количество соглашений, которые оканчиваются в этом месяце.
-Соглашение оканчивается в этом месяце означает, что дата окончания последнего периода содержится в данном месяце.
+Number displayed in a month block means number of agreements that are closing this month.
+Agreement is closing this month if stop date of latest period is in this month.
 
-/agreements/calendar/ - должна возвращать данные в JSON такого формата:
+/agreements/calendar/ - sample JSON response:
+```json
 {
-      2014: [0, 0, 0, 0, 0, 0, 0, 0, 12, 1, 0, 5],
-      2015: [1, 0, 0, 4, 0, 0, 0, 1, 7, 10, 0, 4]
+      2017: [0, 0, 0, 0, 0, 0, 0, 0, 12, 1, 0, 5],
+      2018: [1, 0, 0, 4, 0, 0, 0, 1, 7, 10, 0, 4]
 }
-2014, 2015 - это года
-Массивы - индекс означает номер месяца, число - количество оканчивающихся соглашений.
+```
+2017 and 2018 are years.
+Arrays - index means month number, digit - number of closing agreements.
 
-Запрос должен поддерживать следующие фильтры:
-country, negotiator, company.
-Например: ?country=1,2,7&negotitator=4,8
-Число - это id объекта.
+Endpoint should support following filters: country, negotiator, company.
+For example: ?country=1,2,7&negotitator=4,8
+Number is an id of an object.
 
 ## Requirements
 
@@ -80,4 +78,5 @@ country, negotiator, company.
 
 ### Results
 - You need to provide information about hours spent on this task, preferrably with split by subtasks.
+
 
