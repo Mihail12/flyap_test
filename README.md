@@ -73,7 +73,6 @@ Number is an id of an object.
 - Unit tests
 
 ### Coding style
-- 1 tab equals to 3 spaces
 - Code should correspond to industrial standards: pep8, pylint et al.
 
 ### Results
