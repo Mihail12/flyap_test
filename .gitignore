@@ -3,3 +3,6 @@ __pycache__
 *.swp
 *~
 
+venv
+.idea
+db.sqlite3

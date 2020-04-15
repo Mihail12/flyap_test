@@ -1,0 +1,490 @@
+[
+{
+  "model": "general.agreement",
+  "pk": 3,
+  "fields": {
+    "start_date": "2018-02-22",
+    "stop_date": "2018-03-15",
+    "company": 1,
+    "negotiator": 2,
+    "debit": "2.pdf",
+    "credit": "8_\u043c\u0431_\u0433\u0438\u0444.gif.mp4"
+  }
+},
+{
+  "model": "general.agreement",
+  "pk": 4,
+  "fields": {
+    "start_date": "2018-01-03",
+    "stop_date": "2018-07-09",
+    "company": 1,
+    "negotiator": 3,
+    "debit": "4.pdf",
+    "credit": "2_EYO2rNZ.pdf"
+  }
+},
+{
+  "model": "general.agreement",
+  "pk": 5,
+  "fields": {
+    "start_date": "2018-04-20",
+    "stop_date": "2018-08-20",
+    "company": 2,
+    "negotiator": 5,
+    "debit": "3_SOvNZW6.pdf",
+    "credit": "1.pdf"
+  }
+},
+{
+  "model": "general.agreement",
+  "pk": 6,
+  "fields": {
+    "start_date": "2018-06-30",
+    "stop_date": "2018-11-30",
+    "company": 7,
+    "negotiator": 6,
+    "debit": "2_1rtiOOo.pdf",
+    "credit": "3_t3hsJWe.pdf"
+  }
+},
+{
+  "model": "general.agreement",
+  "pk": 7,
+  "fields": {
+    "start_date": "2018-09-22",
+    "stop_date": "2018-12-31",
+    "company": 9,
+    "negotiator": 3,
+    "debit": "3_3A5EJRC.pdf",
+    "credit": "2_mHDof2F.pdf"
+  }
+},
+{
+  "model": "general.agreement",
+  "pk": 8,
+  "fields": {
+    "start_date": "2019-01-21",
+    "stop_date": "2019-05-21",
+    "company": 3,
+    "negotiator": 6,
+    "debit": "3_YLbOEuE.pdf",
+    "credit": "4_ce1443e.pdf"
+  }
+},
+{
+  "model": "general.agreement",
+  "pk": 9,
+  "fields": {
+    "start_date": "2019-03-21",
+    "stop_date": "2019-06-21",
+    "company": 3,
+    "negotiator": 4,
+    "debit": "3_aoau7ae.pdf",
+    "credit": "4_5yoVxvJ.pdf"
+  }
+},
+{
+  "model": "general.agreement",
+  "pk": 10,
+  "fields": {
+    "start_date": "2019-02-21",
+    "stop_date": "2019-08-21",
+    "company": 4,
+    "negotiator": 5,
+    "debit": "2_twKOXmA.pdf",
+    "credit": "4_KshSrkr.pdf"
+  }
+},
+{
+  "model": "general.agreement",
+  "pk": 11,
+  "fields": {
+    "start_date": "2019-05-21",
+    "stop_date": "2019-11-29",
+    "company": 6,
+    "negotiator": 2,
+    "debit": "3_n22Bnd0.pdf",
+    "credit": "2_lkjOBW9.pdf"
+  }
+},
+{
+  "model": "general.period",
+  "pk": 6,
+  "fields": {
+    "start_date": "2018-02-23",
+    "stop_date": "2018-02-26",
+    "status": 3,
+    "agreement": 3
+  }
+},
+{
+  "model": "general.period",
+  "pk": 7,
+  "fields": {
+    "start_date": "2018-02-28",
+    "stop_date": "2018-03-02",
+    "status": 4,
+    "agreement": 3
+  }
+},
+{
+  "model": "general.period",
+  "pk": 8,
+  "fields": {
+    "start_date": "2018-03-02",
+    "stop_date": "2018-03-05",
+    "status": 1,
+    "agreement": 3
+  }
+},
+{
+  "model": "general.period",
+  "pk": 9,
+  "fields": {
+    "start_date": "2018-03-06",
+    "stop_date": "2018-03-15",
+    "status": 1,
+    "agreement": 3
+  }
+},
+{
+  "model": "general.period",
+  "pk": 10,
+  "fields": {
+    "start_date": "2018-01-07",
+    "stop_date": "2018-03-03",
+    "status": 2,
+    "agreement": 4
+  }
+},
+{
+  "model": "general.period",
+  "pk": 11,
+  "fields": {
+    "start_date": "2018-04-03",
+    "stop_date": "2018-04-30",
+    "status": 4,
+    "agreement": 4
+  }
+},
+{
+  "model": "general.period",
+  "pk": 12,
+  "fields": {
+    "start_date": "2018-04-30",
+    "stop_date": "2018-05-20",
+    "status": 3,
+    "agreement": 4
+  }
+},
+{
+  "model": "general.period",
+  "pk": 13,
+  "fields": {
+    "start_date": "2018-06-01",
+    "stop_date": "2018-07-02",
+    "status": 2,
+    "agreement": 4
+  }
+},
+{
+  "model": "general.period",
+  "pk": 14,
+  "fields": {
+    "start_date": "2018-05-20",
+    "stop_date": "2018-06-20",
+    "status": 3,
+    "agreement": 5
+  }
+},
+{
+  "model": "general.period",
+  "pk": 15,
+  "fields": {
+    "start_date": "2018-06-22",
+    "stop_date": "2018-06-28",
+    "status": 4,
+    "agreement": 5
+  }
+},
+{
+  "model": "general.period",
+  "pk": 16,
+  "fields": {
+    "start_date": "2018-06-29",
+    "stop_date": "2018-06-29",
+    "status": 4,
+    "agreement": 5
+  }
+},
+{
+  "model": "general.period",
+  "pk": 17,
+  "fields": {
+    "start_date": "2018-06-30",
+    "stop_date": "2018-07-20",
+    "status": 4,
+    "agreement": 5
+  }
+},
+{
+  "model": "general.period",
+  "pk": 18,
+  "fields": {
+    "start_date": "2018-06-30",
+    "stop_date": "2018-09-30",
+    "status": 4,
+    "agreement": 6
+  }
+},
+{
+  "model": "general.period",
+  "pk": 19,
+  "fields": {
+    "start_date": "2018-09-30",
+    "stop_date": "2018-11-30",
+    "status": 3,
+    "agreement": 6
+  }
+},
+{
+  "model": "general.period",
+  "pk": 20,
+  "fields": {
+    "start_date": "2018-09-22",
+    "stop_date": "2018-10-22",
+    "status": 3,
+    "agreement": 7
+  }
+},
+{
+  "model": "general.period",
+  "pk": 21,
+  "fields": {
+    "start_date": "2018-11-20",
+    "stop_date": "2018-11-30",
+    "status": 4,
+    "agreement": 7
+  }
+},
+{
+  "model": "general.period",
+  "pk": 22,
+  "fields": {
+    "start_date": "2018-12-01",
+    "stop_date": "2018-12-31",
+    "status": 3,
+    "agreement": 7
+  }
+},
+{
+  "model": "general.period",
+  "pk": 23,
+  "fields": {
+    "start_date": "2019-01-30",
+    "stop_date": "2019-03-21",
+    "status": 4,
+    "agreement": 8
+  }
+},
+{
+  "model": "general.period",
+  "pk": 24,
+  "fields": {
+    "start_date": "2019-03-22",
+    "stop_date": "2019-04-21",
+    "status": 1,
+    "agreement": 8
+  }
+},
+{
+  "model": "general.period",
+  "pk": 25,
+  "fields": {
+    "start_date": "2019-04-21",
+    "stop_date": "2019-05-21",
+    "status": 1,
+    "agreement": 9
+  }
+},
+{
+  "model": "general.period",
+  "pk": 26,
+  "fields": {
+    "start_date": "2019-05-21",
+    "stop_date": "2019-06-21",
+    "status": 1,
+    "agreement": 9
+  }
+},
+{
+  "model": "general.period",
+  "pk": 27,
+  "fields": {
+    "start_date": "2019-02-21",
+    "stop_date": "2019-03-21",
+    "status": 1,
+    "agreement": 10
+  }
+},
+{
+  "model": "general.period",
+  "pk": 28,
+  "fields": {
+    "start_date": "2019-03-21",
+    "stop_date": "2019-04-21",
+    "status": 4,
+    "agreement": 10
+  }
+},
+{
+  "model": "general.period",
+  "pk": 29,
+  "fields": {
+    "start_date": "2019-04-21",
+    "stop_date": "2019-05-21",
+    "status": 1,
+    "agreement": 10
+  }
+},
+{
+  "model": "general.period",
+  "pk": 30,
+  "fields": {
+    "start_date": "2019-05-21",
+    "stop_date": "2019-06-21",
+    "status": 2,
+    "agreement": 10
+  }
+},
+{
+  "model": "general.period",
+  "pk": 31,
+  "fields": {
+    "start_date": "2019-05-21",
+    "stop_date": "2019-06-21",
+    "status": 1,
+    "agreement": 11
+  }
+},
+{
+  "model": "general.period",
+  "pk": 32,
+  "fields": {
+    "start_date": "2019-06-21",
+    "stop_date": "2019-07-12",
+    "status": 4,
+    "agreement": 11
+  }
+},
+{
+  "model": "general.period",
+  "pk": 33,
+  "fields": {
+    "start_date": "2019-07-15",
+    "stop_date": "2019-07-19",
+    "status": 3,
+    "agreement": 11
+  }
+},
+{
+  "model": "general.period",
+  "pk": 34,
+  "fields": {
+    "start_date": "2019-08-12",
+    "stop_date": "2019-08-29",
+    "status": 1,
+    "agreement": 11
+  }
+},
+{
+  "model": "general.period",
+  "pk": 35,
+  "fields": {
+    "start_date": "2019-09-12",
+    "stop_date": "2019-11-12",
+    "status": 3,
+    "agreement": 11
+  }
+},
+{
+  "model": "general.company",
+  "pk": 1,
+  "fields": {
+    "title": "Comp",
+    "country": 1
+  }
+},
+{
+  "model": "general.company",
+  "pk": 2,
+  "fields": {
+    "title": "SelfNoun",
+    "country": 20
+  }
+},
+{
+  "model": "general.company",
+  "pk": 3,
+  "fields": {
+    "title": "Nike",
+    "country": 43
+  }
+},
+{
+  "model": "general.company",
+  "pk": 4,
+  "fields": {
+    "title": "Dino",
+    "country": 239
+  }
+},
+{
+  "model": "general.company",
+  "pk": 5,
+  "fields": {
+    "title": "Dinamo",
+    "country": 243
+  }
+},
+{
+  "model": "general.company",
+  "pk": 6,
+  "fields": {
+    "title": "Sany",
+    "country": 8
+  }
+},
+{
+  "model": "general.company",
+  "pk": 7,
+  "fields": {
+    "title": "QueWorx",
+    "country": 239
+  }
+},
+{
+  "model": "general.company",
+  "pk": 8,
+  "fields": {
+    "title": "Jedy",
+    "country": 46
+  }
+},
+{
+  "model": "general.company",
+  "pk": 9,
+  "fields": {
+    "title": "Dinomers",
+    "country": 227
+  }
+},
+{
+  "model": "general.company",
+  "pk": 10,
+  "fields": {
+    "title": "Redictal",
+    "country": 79
+  }
+}
+]

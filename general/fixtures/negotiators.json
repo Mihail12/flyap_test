@@ -1,0 +1,110 @@
+[
+{
+  "model": "negotiators.negotiator",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$YHJxWFJGqzbz$JRIitw3IwYzxJNdRqWckJPzFjmAZ0jpCueHdK2VREas=",
+    "last_login": "2020-04-15T09:37:34.483Z",
+    "is_superuser": true,
+    "username": "negotiator_1",
+    "first_name": "Dima",
+    "last_name": "Dunkan",
+    "email": "negotiator1@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-04-15T09:35:12.473Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "negotiators.negotiator",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$XMXkm2oW0VdZ$acfh8Wh2Si0f8hdQLTm9VS1kPDN5My1n3yFxn8Q1Tbk=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "negotiator_2",
+    "first_name": "Vlad",
+    "last_name": "Totorkin",
+    "email": "negotiator@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-04-15T09:35:31.993Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "negotiators.negotiator",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$xjgbcTym1yN9$gCfmSwFJi9HMxciTdYpYAfHcvL/VGFZP3hKrtu5bfFc=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "negotiator_3",
+    "first_name": "Alex",
+    "last_name": "Crud",
+    "email": "negotiator3@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-04-15T09:35:57.344Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "negotiators.negotiator",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$jepqJHreZYYx$RSbY5Cn+IwY2lv1Ch2X8SIa8V33RFISV3+TaoXhkIEQ=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "negotiator_4",
+    "first_name": "Bob",
+    "last_name": "Note",
+    "email": "negotiator4@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-04-15T09:36:19.276Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "negotiators.negotiator",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$NjC7W8rK2Q4y$hMsxrhdr91fGg2OEZLjcanMNS1Sq4CSsWJTWp/j73js=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "negotiator_5",
+    "first_name": "Ted",
+    "last_name": "Wayr",
+    "email": "negotiator5@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-04-15T09:36:39.084Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "negotiators.negotiator",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$WpiScz6jD4Tj$P8JKuCRXgxcu+hlwDNZFlR9QyN54sKvkFRxL3VzwF5o=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "negotiator_6",
+    "first_name": "Leon",
+    "last_name": "Novik",
+    "email": "negotiator6@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-04-15T09:37:12.172Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
