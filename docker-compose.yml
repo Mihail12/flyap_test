@@ -3,6 +3,7 @@ version: '3.7'
 services:
   web:
     build: .
+    container_name: flyap_spasenko_test
     command: sh -c "python manage.py makemigrations
       && python manage.py migrate
       && python manage.py loaddata negotiators.json countries.json general.json
