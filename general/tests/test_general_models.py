@@ -88,7 +88,6 @@ class GeneralModelsTests(TestCase):
             )
         self.assertEqual(str(e.exception), 'Inside agreement periods should not intersect')
 
-
     def test_agreement_creation_start_later_stop_date(self):
         with self.assertRaises(ValueError) as e:
             Agreement.objects.create(

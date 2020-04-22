@@ -12,7 +12,8 @@ def get_months_list(agreements_qs, year):
         .annotate(max_period_stop_date=Max('periods__stop_date'))\
         .annotate(month=ExtractMonth('max_period_stop_date'))\
         .values_list('month', flat=True).order_by('month')
-    return [list(months).count(i) for i in range(1, 13)]
+    months_qs_list = list(months)
+    return [months_qs_list.count(i) for i in range(1, 13)]
 
 
 class AgreementCalendar(APIView):
